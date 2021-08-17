@@ -32,4 +32,5 @@ jobs:
           REPO: self
           BRANCH: dist
           FOLDER: dist
+          MESSAGE: "{sha}"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
