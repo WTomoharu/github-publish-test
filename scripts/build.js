@@ -16,7 +16,7 @@ esbuild.build({
 
   bundle: true,
   minify: false,
-  sourcemap: "inline",
+  sourcemap: "external",
 }).then(() => {
   console.log(`build succeeded`);
 }).catch(() => {
