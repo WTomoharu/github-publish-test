@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.js"],
+  "sourcesContent": ["module.exports = (...params) => {\n  console.log(\"from module:\", ...params)\n}"],
+  "mappings": ";AAAA,OAAO,UAAU,IAAI,WAAW;AAC9B,UAAQ,IAAI,gBAAgB,GAAG;AAAA;",
+  "names": []
+}
