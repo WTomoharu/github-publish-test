@@ -25,6 +25,7 @@ esbuild.build({
 // copy static files
 for (const file of [
   "package.json",
+  "README.md",
 ]) {
   fs.copySync(`./${file}`, `./dist/${file}`)
 }
